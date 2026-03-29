@@ -1,0 +1,107 @@
+/*
+    Reset básico do CSS
+    Remove margens e espaçamentos padrão do navegador
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Arial, sans-serif;
+}
+
+/* 
+    Tornando o menu fixo no topo
+ */
+
+.menu{
+    width: 100%;
+    background-color: #222;
+    position: fixed;  /* fixa o menu na tela */
+    top: 0; /* gruda no topo */
+
+    display: flex; /* coloca logo e o menu na mesma linha */
+    align-items: center; /* alinha verticalmente */
+    justify-content: space-between; /* separa logo (esquerda) e menu (direita) */
+
+    padding: 0 16%; /*espaço nas laterais*/
+
+    z-index: 1000;
+}
+
+/* 
+    Estilizando a logo
+*/
+
+.logo-site{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* 
+    Estilizando a lista
+*/
+.menu ul{
+    list-style: none; /* remove bolinhas da lista */
+    display: flex; /* coloca itens lado a lado */
+    justify-content: center; /* centraliza o menu */
+}
+
+/* 
+    Estilizando os links
+*/
+
+.menu ul li a{
+    display: block;  /* aumenta área clicável */
+    padding: 15px 20px;  /* espaçamento interno */
+    color: #fff;  /* cor da fonte de texto*/
+    text-decoration: none; /* remove sublinhado */
+}
+
+/* 
+    Efeito hover (quando passa o mouse)
+    Muda a cor quando o usuário passa o mouse
+*/
+
+.menu ul li a:hover{
+    background-color: #777;
+}
+
+/* 
+    Corrigindo o problema do conteúdo "subir"
+    Como o menu é fixo, ele pode cobrir o conteúdo.
+*/
+
+.conteudo{
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.container{
+   max-width: 800px; /* limita a largura */
+   margin: 0 auto; /* centraliza horizontalmente */
+   padding: 20px;
+
+   line-height: 1.6;
+}
+
+/* 
+    Aplica recuo nos parágrafo
+*/
+
+.container p{
+    margin-bottom: 16px;
+    text-align: justify;
+    text-indent: 20px;  /* define o recuo da primeira linha */
+
+}
+
+/* Se o parágrafo for o primeiro depois de um título não aplica o recuo*/
+.container h1 + p, .container h2 + p{
+    text-indent: 0;
+}
+
+
+

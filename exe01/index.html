@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu top Fixo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="menu">
+        <a href="#" class="logo-site">Logo</a>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="conteudo">
+
+        <div class="container">
+            <h1>Descrição do Projeto</h1>
+            <p>A seguir está uma breve descrição deste exercício</p>
+
+            <p>
+                Este projeto teve como objetivo criar um menu de navegação fixo no topo da página, utilizando apenas
+                HTML e CSS, além de estruturar o conteúdo de forma centralizada e com boa legibilidade, seguindo um
+                estilo semelhante ao de blogs.
+            </p>
+
+            <p>
+                Inicialmente, foi construída a estrutura HTML com a tag &lt;nav&gt;, responsável por representar o menu
+                de navegação. Dentro dela, foram adicionados a logo do site e uma lista de links (&lt;ul&gt; e
+                &lt;li&gt;), que funcionam como as opções do menu. Abaixo do menu, foi criada uma área de conteúdo
+                principal para exibir textos da página.
+            </p>
+
+            <p>
+                No CSS, o primeiro passo foi aplicar um reset básico para remover margens e espaçamentos padrão dos
+                navegadores, garantindo consistência visual. Em seguida, o menu foi configurado com <strong>position:
+                    fixed</strong> e <strong>top: 0</strong>, fazendo com que ele permaneça sempre visível no topo da
+                tela, mesmo durante a rolagem da página.
+            </p>
+
+            <p>
+                Para organizar os elementos do menu (logo e links), foi utilizado o Flexbox (<strong>display:
+                    flex</strong>), permitindo alinhar os itens horizontalmente e distribuir o espaço entre eles de
+                forma equilibrada. Também foram aplicados estilos visuais, como cores, espaçamentos internos (padding) e
+                efeitos de hover, melhorando a experiência do usuário.
+            </p>
+
+            <p>
+                Outro ponto importante foi o ajuste do conteúdo da página. Como o menu é fixo, foi necessário adicionar
+                uma margem superior (<strong>margin-top</strong>) na área de conteúdo para evitar que ele fique
+                escondido atrás do menu.
+            </p>
+
+            <p>
+                Além disso, foi criado um container centralizado com largura máxima (<strong>max-width</strong>) e
+                margens automáticas (<strong>margin: 0 auto</strong>), deixando o layout mais organizado e semelhante ao
+                de um blog. Foram adicionados também espaçamentos entre parágrafos (<strong>margin-bottom</strong>) e
+                ajustes de tipografia, como altura de linha (<strong>line-height</strong>), para melhorar a leitura.
+            </p>
+
+            <p>
+                Por fim, foi implementada a indentação na primeira linha dos parágrafos com
+                <strong>text-indent</strong>, proporcionando um estilo mais tradicional de texto, semelhante a livros.
+            </p>
+
+            <p>
+                O resultado final é uma página com um menu fixo funcional, layout centralizado e conteúdo bem
+                estruturado, oferecendo uma navegação clara e uma leitura confortável.
+            </p>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
