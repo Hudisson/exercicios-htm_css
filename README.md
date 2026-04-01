@@ -23,7 +23,7 @@ O repositório está organizado por exercícios, cada um com uma pasta própria 
 | Exercício | Descrição |
 |-----------|-----------|
 | **exe01** | Menu fixo e conteúdo semelhante a um blog.<br>Arquivos: `index.html` e `style.css` |
-| **exe02** | [Descrição do próximo exercício].<br>Arquivos: `index.html` e `style.css` |
+| **exe02** | Munu lateral - Sidebar.<br>Arquivos: `index.html` e `style.css` |
 | **exe03** | [Descrição do próximo exercício].<br>Arquivos: `index.html` e `style.css` |
 
 
