@@ -24,7 +24,7 @@ O repositório está organizado por exercícios, cada um com uma pasta própria 
 |-----------|-----------|
 | **exe01** | Menu fixo e conteúdo semelhante a um blog.<br>Arquivos: `index.html` e `style.css` |
 | **exe02** | Munu lateral - Sidebar.<br>Arquivos: `index.html` e `style.css` |
-| **exe03** | [Descrição do próximo exercício].<br>Arquivos: `index.html` e `style.css` |
+| **exe03** | [Rodapé (footer) simples ].<br>Arquivos: `index.html` e `style.css` |
 
 
 > Dica: cada pasta é independente. Você pode abrir o `index.html` diretamente no navegador e testar o exercício.
